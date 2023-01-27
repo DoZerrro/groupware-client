@@ -1,0 +1,66 @@
+{
+  "name": "aquaranth-client",
+  "version": "1.0.0",
+  "description": "Aquaranth Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --env development",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devaquariums/aquaranth-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devaquariums/aquaranth-client/issues"
+  },
+  "homepage": "https://github.com/devaquariums/aquaranth-client#readme",
+  "dependencies": {
+    "@loadable/component": "^5.15.2",
+    "@reduxjs/toolkit": "^1.8.6",
+    "axios": "^1.1.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "polished": "^4.2.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-hook-form": "^7.39.1",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^5.3.4",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2",
+    "styled-components": "^5.3.6",
+    "sweetalert2": "^11.6.15",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-styled-components": "^2.0.7",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.7.1",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
